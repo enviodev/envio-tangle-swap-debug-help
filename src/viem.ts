@@ -1,7 +1,7 @@
 import { createPublicClient, http } from 'viem'
 
 export const viemClient = createPublicClient({
-  transport: http('http://127.0.0.1:3113', {
+  transport: http('https://json-rpc.evm.shimmer.network', {
     retryCount: 3,
     retryDelay: 250
   })

@@ -12,8 +12,8 @@ importers:
         specifier: 4.3.10
         version: 4.3.10
       envio:
-        specifier: 0.0.0-main-20240304135353-a8b85344
-        version: 0.0.0-main-20240304135353-a8b85344
+        specifier: 0.0.32
+        version: 0.0.32
       ethers:
         specifier: 6.8.0
         version: 6.8.0
@@ -1105,28 +1105,37 @@ packages:
       once: 1.4.0
     dev: false
 
-  /envio-darwin-arm64@0.0.0-main-20240304135353-a8b85344:
-    resolution: {integrity: sha512-YN4qzsRPx2M+sPCUlPYk6k5wer6cneSUruc2TBmklReAlCpCa3GMKLGdRrXkoxIvR21Mvyc0Sq3vNr368Quupw==}
+  /envio-darwin-arm64@0.0.32:
+    resolution: {integrity: sha512-2fXD1naNYsMb/nq+Y7jMY4KzAtzcLJ0XLXoJASn37k1QS9QbehQzfe8azUSxVK3VMhzxXmj6zE1SyyiDcT3t7g==}
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
     dev: false
     optional: true
 
-  /envio-linux-x64@0.0.0-main-20240304135353-a8b85344:
-    resolution: {integrity: sha512-r7S9bQdHC91a3QMLhChwTDOvHiyrehe7eqE7pjiRANYCPO3Ow9NTbMklX4p/VPh6HWXZllZAKZNiJrfTOqNG+A==}
+  /envio-darwin-x64@0.0.32:
+    resolution: {integrity: sha512-/f8myAITg+fpizwiTMkcARnt5bi5gVXJUg5nsPCTsmge6sHvze2Hfwd2VvHpMGoo/RwgIvPmNYwU3C+j21hAfA==}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /envio-linux-x64@0.0.32:
+    resolution: {integrity: sha512-VAvBs67ImXSs8j/lfZ8Q8QYoE2ixhAmeHoAm2YZA179O6CW5MPkTIz6E3BWwhsr90oT/LU+kXXeCaTv1tXKfMA==}
     cpu: [x64]
     os: [linux]
     requiresBuild: true
     dev: false
     optional: true
 
-  /envio@0.0.0-main-20240304135353-a8b85344:
-    resolution: {integrity: sha512-W32swkssCRwI1RolrNWOGulLooYc3YDa5QEV/TZSWTmrgqF/oGOtn1lM2NkEE5JWqJRBbTxc+S+DHNZBA0+CvA==}
+  /envio@0.0.32:
+    resolution: {integrity: sha512-ueCvHoU8Szjud3PzlfsD1lbnhFrGaf+D1Xd+4qemzFHjogv4EBDxE+dnZpjYpfr0y6XA337AVPHWd2wTlAa7Gg==}
     hasBin: true
     optionalDependencies:
-      envio-darwin-arm64: 0.0.0-main-20240304135353-a8b85344
-      envio-linux-x64: 0.0.0-main-20240304135353-a8b85344
+      envio-darwin-arm64: 0.0.32
+      envio-darwin-x64: 0.0.32
+      envio-linux-x64: 0.0.32
     dev: false
 
   /es-abstract@1.22.5:
@@ -1771,7 +1780,7 @@ packages:
       fs.realpath: 1.0.0
       inflight: 1.0.6
       inherits: 2.0.4
-      minimatch: 5.1.6
+      minimatch: 5.0.1
       once: 1.4.0
     dev: false
 
@@ -2221,14 +2230,6 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       brace-expansion: 2.0.1
-    dev: true
-
-  /minimatch@5.1.6:
-    resolution: {integrity: sha512-lKwV/1brpG6mBUFHtb7NUmtABCb2WZZmm2wNiOA5hAb8VdCS4B3dtMWyvcoViccwAW/COERjXLt0zP1zXUN26g==}
-    engines: {node: '>=10'}
-    dependencies:
-      brace-expansion: 2.0.1
-    dev: false
 
   /minimatch@9.0.3:
     resolution: {integrity: sha512-RHiac9mvaRw0x3AYRgDC1CxAP7HTcNrrECeA8YYJeWnpo+2Q5CegtZjaotWTWxDG3UeGA1coE05iH1mPjT/2mg==}
